@@ -1,0 +1,27 @@
+@import "variables"; // Variables
+@import "~materialize-css/sass/materialize"; //MATERIALIZE
+@import "~/css/animate.css"; //ANIMATE CSS
+@import "~/css/knocks_glyphs/style.css"; //KNOCKS GLYPHS & ICONS PACKAGE
+@import "~/css/adequate_font.css"; //ADEQUATE FONT
+@import "~semantic-ui/dist/semantic.min.css"; //SEMANTIC UI
+
+  body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    color : #b2ff59 ;
+    background-color : #212121;
+    font-family : monospace ;
+    word-break : break-all;
+  }
+
+  main {
+    flex: 1 0 auto;
+  }
+
+  footer {
+  	 color : #b2ff59 ;
+    background-color : #212121;
+    font-family : monospace ;
+    word-break : break-all;
+  }

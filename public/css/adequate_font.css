@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'adequate';
+    font-style: normal;
+    font-weight: 300;
+    src:  url(../fonts/adequate/Adequate-ExtraLight.ttf) format('truetype');
+}
+.knocks_font_adequate{
+  font-family: adequate !important;
+}
