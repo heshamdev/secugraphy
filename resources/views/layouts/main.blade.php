@@ -29,7 +29,7 @@
               </div>
               <div class="col l4 offset-l2 s12">
                 <h5 class="white-text">
-                  <a class="grey-text text-lighten-3" target = "_blank" href="https://github.com/mamr-moussa/typograpgy">
+                  <a class="grey-text text-lighten-3" target = "_blank" href="https://github.com/mamr-moussa/secugraphy">
                     <span class = "knocks-brand84"></span> Github Repository
                   </a>
                 </h5>
@@ -42,7 +42,7 @@
           <div class="footer-copyright green">
             <div class="container " style="font-family: sans-serif;">
             © 2018 Copyright Muhammad Amr, Future University In Egypt
-            <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
+              
             </div>
           </div>
         </footer>
