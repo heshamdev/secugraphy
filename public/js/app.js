@@ -57365,7 +57365,8 @@ window.App = new Vue({
     map: window.CharMap,
     input: '',
     key: '',
-    enc: false
+    enc: false,
+    hoverEnc: false
 
   },
   mounted: function mounted() {},
@@ -57410,8 +57411,15 @@ window.App = new Vue({
       var len = this.map.chars.length;
 
       var pushOffset = (offset + index) % len;
-      if (pushOffset < 0) pushOffset = len + pushOffset - 1;
+      if (pushOffset < 0) pushOffset = len + pushOffset;
       return pushOffset;
+    },
+    copyEncrypted: function copyEncrypted() {
+      document.getElementById('enctest').select();
+      document.execCommand("Copy");
+    },
+    encToggle: function encToggle(flag) {
+      this.hoverEnc = flag;
     }
   }
 });

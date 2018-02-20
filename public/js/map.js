@@ -26,9 +26,9 @@ window.CharMap = {
 	'X' , 'x' , 
 	'Y' , 'y' , 
 	'Z' , 'z' , 
-	'1' , '2' , '3' , '4' , '5' , '6' , '7' , '8' , '9' , '0' , 
+	'1' , '2' , '3' , '4' , '5' , '6' , '7' , '8' , '9' , '0' , ' ',
 	'!' , '@' , '#' , '$' , '%' , '^' , '&' , '*' , '(' , ')' , '_' , '+' , '-' , '=' , 
-	'~' , '`' , ',' , '/' , '|' , ':' , ';' , '±' , '§' , '{' , '}' , '[' , ']'
+	'~' , '`' , ',' , '/' , '|' , ':' , ';' , '±' , '§' , '{' , '}' , '[' , ']', 
 	] ,
 	hashs : [
 	'Ds%d' , '3da_s' , 
@@ -59,6 +59,6 @@ window.CharMap = {
 	'JASFD' , '*R$AJSF' , 
 	'MsS#' , ')DAIsaJ' , '>XWO$' , '4(kda	' , 'Kf#)da' , 'dasnkiu4ea' , '84eCuwj' , '4ausjS' , 'asey#))N' , 'EJs*D(' , 
 	'C<ZXO' , 'mcas$IEK' , 'caos4ARS' , 'cma#fa' , '$dasj' , '($AKS' , 'DAS(' , 'ASKDC!' , 'CMAS' , 'EAxM~KL' , 'eOcXL' , 'ExaW' , 'cMAwex' , 'CMA#cxa' , 
-	'mCASKDF' , 'dSAC XIZ_d' , '<CAS' , 'J$EDM' , 'SDAK*(@I' , 'cAKSICX' , 'CKXZ*' , 'EASK~@xzc' , '§cxzks$' , 'cAO' , 'KDASCdsa$$I' , 'dSAIX' , 'EASsda#'
+	'mCASKDF' , 'dSAC XIZ_d' , '<CAS' , 'J$EDM' , 'SDAK*(@I' , 'cAKSICX' , 'CKXZ*' , 'EASK~@xzc' , '§cxzks$' , 'cAO' , 'KDASCdsa$$I' , 'dSAIX' , 'EASsda#' , 'dsa#z',
 	]
 }

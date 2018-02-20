@@ -148,6 +148,7 @@ window.App = new Vue({
 		input : '' ,
 		key : '' , 
 		enc : false ,
+		hoverEnc : false , 
 
 	},
 	mounted(){
@@ -189,9 +190,16 @@ window.App = new Vue({
 			let len = this.map.chars.length;
 
 			let pushOffset =  (offset + index) % len ;
-			if(pushOffset < 0) pushOffset = len + pushOffset - 1;
+			if(pushOffset < 0) pushOffset = len + pushOffset ;
 			return pushOffset;
 
+		},
+		copyEncrypted(){
+			document.getElementById('enctest').select();
+			 document.execCommand("Copy");
+		},
+		encToggle(flag){
+			this.hoverEnc = flag;
 		}
 	}
 });

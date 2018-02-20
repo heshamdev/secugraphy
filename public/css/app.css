@@ -10238,7 +10238,10 @@ main {
 footer {
   color: #b2ff59;
   background-color: #212121;
-  font-family: monospace;
   word-break: break-all;
+}
+
+#footer_list > li {
+  margin-top: 3%;
 }
 
